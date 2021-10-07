@@ -31,7 +31,7 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'pack'
-    packagesToPack: '**/*.csproj'
+    packagesToPack: '**/RNNoise.NET.csproj'
     configuration: 'Release'
     versioningScheme: 'byPrereleaseNumber'
     majorVersion: '1'
